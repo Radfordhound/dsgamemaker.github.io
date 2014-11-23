@@ -1,4 +1,4 @@
 DS Game Maker Zero documentation
 =====================
 
-Visit at [dsgamemaker.github.io](dsgamemaker.github.io).
+Visit at [dsgamemaker.github.io](http://dsgamemaker.github.io).
