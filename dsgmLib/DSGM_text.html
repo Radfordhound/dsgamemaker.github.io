@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>dsgmLib - DSGM_Text</title>
+</head>
+<body>
+<h1>DSGM_Text</h1>
+
+<div class="function">
+<h2>void DSGM_InitText(DSGM_Layer *layer)</h2>
+<div class="description">
+Initiates text-drawing capabilities on the specified layer.
+</div>
+<ul class="parameters">
+<li>layerNumber - The id of the layer to initialize text on</li>
+</ul>
+</div>
+
+<div class="function">
+<h2>void DSGM_ClearText(u8 screen)</h2>
+<div class="description">
+Clears all text on the specified screen.
+</div>
+<ul class="parameters">
+<li>screen - The id of the screen of which to clear the text</li>
+</ul>
+</div>
+
+<div class="function">
+<h2>void DSGM_DrawText(u8 screen, int x, int y, const char *format, ...)</h2>
+<div class="description">
+Draws text to the specified screen at the specified position.
+</div>
+<ul class="parameters">
+<li>screen - The screen to draw text on</li>
+<li>x - The X position to draw text at</li>
+<li>y - The Y position to draw text at</li>
+<li>format - The text to draw to the screen</li>
+</ul>
+</div>
+
+<div class="function">
+<h2>void DSGM_BoxText(u8 screen, u8 x, u8 y, u8 width, u8 height, u8 delay, const char *format, ...)</h2>
+<div class="description">
+"Types" text onto the screen character by character for an RPG-type effect.
+</div>
+<ul class="parameters">
+<li>screen - The screen to draw text on</li>
+<li>x - The X position to draw text at</li>
+<li>y - The Y position to draw text at</li>
+<li>width - The number of characters in each line of text. Characters that don't fit will be "wrapped" to the next line</li>
+<li>height - The height of each line of text (Unused at the moment from what I'm aware of.)</li>
+<li>delay - How long to wait before drawing the next character of text</li>
+<li>format - The text to draw to the screen</li>
+</ul>
+</div>
+
+</body>
+</html>
